@@ -7,9 +7,6 @@ class Home extends React.Component {
   render(){
     return (
       <div className="App">
-        <div>
-          <Header/>
-        </div>
         <header className="App-header">
           <img src={getlearn} className="App-logo" alt="logo" />
           <p>
