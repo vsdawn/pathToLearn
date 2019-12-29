@@ -20,6 +20,20 @@
 .App-link {
   color: #09d3ac;
 }
+.contentColom{
+  padding: 10px;
+}
+.contentHeader{
+  margin-top: 50px;
+  color: blue;
+}
+.cardStyle{
+  /* background-color: gray; */
+  height: 300px;
+}
 .devopsStyle{
-  text-align: left;
+  margin-top: 50px;
+  text-align: center;
+  /* color:red; */
+  padding: 10px;
 }

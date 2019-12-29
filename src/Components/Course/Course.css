@@ -3,13 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  max-height: 400px;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -20,6 +20,21 @@
 .App-link {
   color: #09d3ac;
 }
-.devopsStyle{
+.courseRow{
+
+}
+.awsCourse{
+color: red;
+}
+.courseColom{
+padding: 10px;
+}
+.courseHeader{
+  color:blue;
+  margin-top: 10px;
+  text-align: left;
+}
+.courseParagraph{
+  margin-top: 10px;
   text-align: left;
 }
