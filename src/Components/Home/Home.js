@@ -2,6 +2,7 @@ import React from 'react';
 import getlearn from '../Image/getlearn.svg';
 import './Home.css';
 import Header from '../Header/Header.js'
+import Footer from '../Footer/Footer.js'
 
 class Home extends React.Component {
   render() {
@@ -46,6 +47,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

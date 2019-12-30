@@ -5,3 +5,10 @@
 .headerItems{
   /* margin-right: 50; */
 }
+.footer{
+  position: absolute;
+  right: 50%;
+}
+.mainNav{
+  height: 100px;
+}

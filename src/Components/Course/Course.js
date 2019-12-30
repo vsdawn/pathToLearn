@@ -2,6 +2,7 @@ import React from 'react';
 import getlearn from '../Image/getlearn.svg';
 import './Course.css';
 import Header from '../Header/Header.js'
+import Footer from '../Footer/Footer.js'
 
 class Course extends React.Component {
   render() {
@@ -10,7 +11,7 @@ class Course extends React.Component {
         <header className="App-header">
           <img src={getlearn} className="App-logo" alt="logo" />
           <p>
-            AWS Course Content  
+            AWS Course Content
           </p>
         </header>
         <div className="container-fluid">
@@ -350,6 +351,7 @@ class Course extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }
